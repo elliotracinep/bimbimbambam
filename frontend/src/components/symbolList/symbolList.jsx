@@ -48,7 +48,7 @@ const SymbolList = () => {
                             key={symbol.id}
                             id={symbol.id}
                             name={symbol.name}
-                            album={symbol.image}>
+                            image={symbol.image}>
                         </SymbolList>
                     ) : null,
                 )}
